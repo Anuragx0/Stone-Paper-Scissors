@@ -1,0 +1,131 @@
+*{
+margin : 0;
+box-sizing : border-box;
+padding : 0;
+text-align: center;
+background-color: #C4BBAF;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.title{
+    height: 10vh;
+    width: 100%;
+}
+h1{
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 6vh;
+}
+.main{
+    height: calc(100% - 10vh);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.user-choice{
+    height: calc(100% - 10vh);
+}
+.user-choice h3 {
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+.user-choice p{
+    font-size: 6vh;
+}
+.user-choice img {
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.game{
+    height: calc(100% - 10vh);
+}
+.comp-choice{
+    height: calc(100% - 10vh);
+}
+.comp-choice h3{
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+.comp-choice p{
+    font-size: 6vh;
+}
+.comp-choice img {
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0 ;
+}
+.choice{
+    height: 22vh;
+    width: 22vh;
+    margin: 0 5vh;
+}
+.game img{
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.game img:hover{
+    border: 1vh solid #000;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 10vh;
+}
+.score{
+    font-size: 6vh;
+}
+.msg-container{
+    margin-top: 8vh;
+}
+#msg{
+    background-color: #1C1C1C;
+    color: #fff;
+    display: inline;
+    font-size: 6vh;
+    padding: 3vh 3vh;
+    border-radius: 2.5vh;
+}
+.comp-choice label     {
+    font-size: 4vh;
+    margin: 10vh 2vh;
+}
+.comp-choice input {
+    height: 4vh;
+    width: 50%;
+    font-size: 2vh;
+    margin: 1vh 2vh;
+}
+#timmercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 30vh;
+    font-size: 5vh;
+}
+#timmerval{
+    height: 7vh;
+    width: 8vh;
+    background-color: #1c1c1c;
+    margin-left: 1vh;
+    color: #fff;
+    padding: 0.5vh 0;
+}

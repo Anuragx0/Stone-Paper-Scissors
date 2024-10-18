@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Stone Paper Scissors</h1>
+    </div>
+    
+    <div class="main">
+        <div class="user-choice">
+            <h3>User Choice</h3>
+            <img id="user-img" src="" alt="">
+            <p id="user-choice-text"></p>
+            
+        </div>
+        <div class="game">
+            <div class="choices">
+                <div id="rock" class="choice">
+                    <img src="image/rock.png" alt="rock">
+                </div>
+                <div id="paper"class="choice">
+                    <img src="image/paper.png" alt="">
+                </div>
+                <div id="scissors"class="choice">
+                    <img src="image/scissors.png" alt="">
+                </div>
+            </div>
+
+            <div class="score-board">
+                <div class="score">
+                    <p id="user-score">0</p>
+                    <p>You</p>
+                </div>
+                <div class="score">
+                    <p id="comp-score">0</p>
+                    <p>comp</p>
+                </div>
+            </div>
+
+            <div class="msg-container">
+                <p id="msg">Play Your Move</p>
+            </div>
+        </div>
+        <div class="comp-choice">
+            <h3>Computer Choice</h3>
+            <img id="comp-img" src="" alt="">
+            <p id="comp-choice-text"></p>
+            <!-- <label for="time">Set Timmer
+                <input type="text" name="time" id="time-selec" placeholder="Set Timmer (in sec)">
+                <button>sumbit</button>
+            </label> -->
+            <!-- <div id="timmercontainer">
+                <h4>timmer : </h4>
+                <div id="timmerval">0</div>
+            </div> -->
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
